@@ -1,0 +1,170 @@
+html,
+body{
+    height:100%;
+    font-family:'Times New Roman', Times, serif;
+
+
+}
+body{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0px;
+
+}
+
+
+ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-grow: 0.2;
+
+
+
+
+    list-style: none;
+
+    background-color: white;
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 2rem;
+    margin: 3%;
+
+}
+
+li > input{
+    font-size: 2rem;
+
+
+}
+
+li > input:focus{
+    border: solid;
+    border-color: blue;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+
+
+#image-header{
+
+    width: 35%;
+
+    background-image: url(craneceiling.jpg);
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+
+    min-width: 500px;
+    min-height: 700px;
+    height: 100%;
+
+    font-family: 'Times New Roman', Times, serif
+
+
+
+}
+
+
+.title{
+    margin-top: 15vh;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    box-sizing: content-box;
+
+
+
+    background-color: black;
+    min-width: 100%;
+
+
+    font-size: 5em;
+    opacity: 75%;
+
+
+}
+
+.title > img{
+    height:1.5em;
+    width:auto;
+
+}
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+
+
+    flex-grow: 1;
+
+    background-color: #e8e8e8;
+
+}
+
+
+
+
+#form > #intro{
+
+
+    flex-grow: 0.2;
+
+    font-size: 3rem;
+
+    padding: 3%;
+    margin: 20px;
+
+}
+button#reset,
+button#submit{
+
+    background-color: green;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 3%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+button#reset{
+    background-color: crimson;
+}
+
+#already{
+    margin: 20px;
+    font-size: 2em;
+
+
+}
+
+#already a{
+    text-decoration: none;
+    color: #948119;
+
+}
+
