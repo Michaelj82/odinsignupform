@@ -8,8 +8,8 @@ body{
 body{
     display: flex;
     flex-direction: row;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
     margin: 0px;
 
 }
@@ -21,7 +21,7 @@ ul{
     flex-wrap: wrap;
     align-items: center;
     flex-grow: 0.2;
-
+    max-height: 650px;
 
 
 
@@ -63,16 +63,18 @@ li > input:focus{
     width: 35%;
 
     background-image: url(craneceiling.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+
 
     display:flex;
     flex-direction: column;
     align-items: center;
-    flex-grow: 1;
+    flex-grow: 2;
 
     min-width: 500px;
-    min-height: 700px;
-    height: 100%;
+    min-height: 1600px;
+    height: 100vh;
 
     font-family: 'Times New Roman', Times, serif
 
@@ -96,7 +98,7 @@ li > input:focus{
     min-width: 100%;
 
 
-    font-size: 5em;
+    font-size: 5rem;
     opacity: 75%;
 
 
@@ -113,8 +115,9 @@ li > input:focus{
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 500px;
     width: 65%;
-
+    height: 100vh;
 
     flex-grow: 1;
 
@@ -131,7 +134,7 @@ li > input:focus{
     flex-grow: 0.2;
 
     font-size: 3rem;
-
+    min-height: 650px;
     padding: 3%;
     margin: 20px;
 
@@ -148,6 +151,7 @@ button#submit{
     padding-right: 35px;
     margin-left: 3%;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 3%;
 
 }
 
